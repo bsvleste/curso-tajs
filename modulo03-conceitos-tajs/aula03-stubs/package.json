@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start":"node --watch src/index.js",
     "test": "vitest",
     "test:ui":"vitest --ui",
-    "test:coverage": "vitest run --coverage",
-    "app:wathc":"node --watch src/person.js"
+    "test:coverage": "vitest run --coverage"
   },
   "keywords": [],
   "author": "bsvcode",
