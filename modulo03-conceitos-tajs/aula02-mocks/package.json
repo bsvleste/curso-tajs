@@ -7,7 +7,7 @@
     "test": "vitest",
     "test:ui":"vitest --ui",
     "test:coverage": "vitest run --coverage",
-    "app:wathc":"node --watch src/person.js"
+    "start":"node --watch src/person.js"
   },
   "keywords": [],
   "author": "bsvcode",

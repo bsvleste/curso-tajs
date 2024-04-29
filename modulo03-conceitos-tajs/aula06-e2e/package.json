@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node --watch src/index.js",
+    "start": "PORT=3000 node --watch src/index.js",
     "test": "vitest",
-    "test:ui":"vitest --ui",
+    "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage"
   },
   "keywords": [],
@@ -14,6 +14,7 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@vitest/coverage-v8": "^1.5.2",
     "vitest": "^1.5.2"
   }
 }
