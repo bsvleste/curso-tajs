@@ -1,0 +1,19 @@
+{
+  "name": "metodo-tajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node --watch src/index.js",
+    "test": "vitest",
+    "test:ui":"vitest --ui",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "bsvcode",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "vitest": "^1.5.2"
+  }
+}
